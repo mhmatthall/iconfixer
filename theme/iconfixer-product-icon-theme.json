@@ -1,0 +1,54 @@
+{
+  "fonts": [
+    {
+      "id": "codicon",
+      "src": [{ "format": "opentype", "path": "./codicon.ttf" }],
+      "style": "normal",
+      "weight": "normal"
+    }
+  ],
+  "iconDefinitions": {
+    "debug-console-clear-all": {
+      "fontCharacter": "\\ea76"
+    },
+    "extensions-clear-search-results": {
+      "fontCharacter": "\\ea87"
+    },
+    "notebook-clear": {
+      "fontCharacter": "\\ea76"
+    },
+    "notifications-clear-all": {
+      "fontCharacter": "\\ea76"
+    },
+    "preferences-clear-input": {
+      "fontCharacter": "\\ea76"
+    },
+    "search-clear-results": {
+      "fontCharacter": "\\ea76"
+    },
+    "outline-view-icon": {
+      "fontCharacter": "\\eb86"
+    },
+    "gitlens-graph": {
+      "fontCharacter": "\\eafe"
+    },
+    "split-horizontal": {
+      "fontCharacter": "\\ebf4"
+    },
+    "accounts-view-bar-icon": {
+      "fontCharacter": "\\eb54"
+    },
+    "configure-layout-icon": {
+      "fontCharacter": "\\eb78"
+    },
+    "go-to-file": {
+      "fontCharacter": "\\eae9"
+    },
+    "discard": {
+      "fontCharacter": "\\ea87"
+    },
+    "map": {
+      "fontCharacter": "\\eaf5"
+    }
+  }
+}

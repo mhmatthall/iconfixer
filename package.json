@@ -7,15 +7,18 @@
     "vscode": "^1.94.0"
   },
   "categories": [
-    "Other"
+    "Themes"
   ],
   "activationEvents": [],
   "main": "./extension.js",
   "contributes": {
-    "commands": [{
-      "command": "iconfixer.helloWorld",
-      "title": "Hello World"
-    }]
+    "productIconThemes": [
+      {
+        "id": "iconFixer",
+        "label": "Icon Fixer",
+        "path": "./theme/iconfixer-product-icon-theme.json"
+      }
+    ]
   },
   "scripts": {
     "lint": "eslint .",
