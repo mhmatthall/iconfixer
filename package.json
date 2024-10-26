@@ -1,7 +1,9 @@
 {
   "name": "iconfixer",
   "displayName": "Icon Fixer",
-  "description": "",
+  "repository": "github:mhmatthall/vscode-iconfixer",
+  "publisher": "mhmatthall",
+  "description": "Matt's vscode icon fixes",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.94.0"
@@ -22,9 +24,11 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "pretest": "npm run lint"
+    "pretest": "npm run lint",
+    "build": "vsce package"
   },
   "devDependencies": {
+    "@vscode/vsce": "^3.2.1",
     "eslint": "^9.13.0"
   }
 }
